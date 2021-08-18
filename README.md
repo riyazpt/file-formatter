@@ -34,6 +34,9 @@ Please type 0 or 1 to convert file:
 [1] Xml
 
 4 User selects the one of the option.Based on the option selected csv file would be converted to corresponding format.
+Note:if folder is not created on storage then
+type php artisan optimize:clear i command line
+and close the folder and reopen it and repeat step 1 to 4.
 
 ### API Specification
 
