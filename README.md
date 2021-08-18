@@ -15,23 +15,23 @@ PHP 7.3
 
 ### Installing
 
-1 Clone GitHub repo for this project locally
-`https://github.com/riyazpt/file-formatter.git`
-2 change directory to project folder
-3 Install Composer Dependencies
-composer install
+1. Clone GitHub repo for this project locally
+   `https://github.com/riyazpt/file-formatter.git`
+2. change directory to project folder
+3. Install Composer Dependencies
+   composer install
 
 ### Executing program
 
-1 on command line of project type 'php artisan serve'
-The application would be run and up at http://127.0.0.1:8000
-2 Go to project folder and type
-php artisan file:convert folderpath\riyas.csv
-here csv file path should be specified
-3 It would be prompting as follows
-Please type 0 or 1 to convert file:
-[0] Json
-[1] Xml
+1. On command line of project type 'php artisan serve'
+   The application would be run and up at http://127.0.0.1:8000
+2. Go to project folder and type
+   php artisan file:convert folderpath\riyas.csv
+   here csv file path should be specified
+3. It would be prompting as follows
+   Please type 0 or 1 to convert file:
+   [0] Json
+   [1] Xml
 
 4 User selects the one of the option.Based on the option selected csv file would be converted to corresponding format.
 Note:if folder is not created on storage then
